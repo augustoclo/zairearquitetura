@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="FOTO DE ARQUITETURA · ESPAÇO RESERVADO">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5C3425"/>
+      <stop offset="100%" stop-color="#282828"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#g)"/>
+  <g fill="none" stroke="#F1EEE6" stroke-opacity="0.32" stroke-width="2">
+    <rect x="128" y="100" width="1344" height="800"/>
+    <line x1="128" y1="660" x2="1472" y2="660"/>
+    <line x1="576" y1="100" x2="576" y2="660"/>
+    <path d="M 576 660 A 180 180 0 0 1 756 480"/>
+  </g>
+  <text x="50%" y="48%" text-anchor="middle" fill="#F1EEE6" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="600" letter-spacing="0.04em">FOTO DE ARQUITETURA · ESPAÇO RESERVADO</text>
+  <text x="50%" y="56%" text-anchor="middle" fill="#F1EEE6" fill-opacity="0.82" font-family="system-ui, -apple-system, sans-serif" font-size="26">Substitua por assets/img/marca/hero-arquitetura.webp</text>
+</svg>

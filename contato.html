@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato · Zaire Arquitetura</title>
+  <meta name="description" content="Conte sobre o seu projeto para a Zaire Arquitetura pelo formulário ou converse diretamente no WhatsApp. Atendimento online e presencial em São João del-Rei e região.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body id="topo">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand-link" href="index.html" data-brand-logo>Zaire Arquitetura</a>
+
+      <button
+        type="button"
+        class="menu-toggle"
+        data-menu-toggle
+        aria-expanded="false"
+        aria-controls="menu-principal"
+        aria-label="Abrir menu de navegação"
+      >
+        Menu
+      </button>
+
+      <nav id="menu-principal" class="site-nav" data-site-nav aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Início</a></li>
+          <li><a class="nav-link" href="projetos.html">Projetos</a></li>
+          <li><a class="nav-link" href="index.html#servicos">Serviços</a></li>
+          <li><a class="nav-link" href="index.html#sobre">Sobre</a></li>
+          <li><a class="nav-link" href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Contato</span>
+        <h1>Nos conte um pouco sobre você</h1>
+        <p class="lead">Pode ser uma ideia para agora ou um plano para mais adiante. Queremos entender o que você tem em mente.</p>
+
+        <div class="contact-options">
+          <div class="contact-option-card">
+            <div>
+              <h2>Contar sobre meu projeto</h2>
+              <p>Preencha o formulário curto abaixo para explicar sua ideia com calma. Apenas nome e telefone são obrigatórios.</p>
+            </div>
+            <div>
+              <a class="btn btn-primary" href="#formulario-contato">Ir para o formulário</a>
+            </div>
+          </div>
+
+          <div class="contact-option-card">
+            <div>
+              <h2>Conversar no WhatsApp</h2>
+              <p>Se estiver só pesquisando ou preferir mandar uma mensagem rápida, fale diretamente com a equipe.</p>
+            </div>
+            <div>
+              <a
+                class="btn btn-secondary"
+                href="https://wa.me/5532998498788?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Zaire%20Arquitetura%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+                data-whatsapp-link="padrao"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Conversar no WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario-contato" class="section">
+      <div class="container contact-form-wrap">
+        <!--
+          CONFIGURAÇÃO DO FORMSPREE:
+          Substitua apenas o endereço no atributo action abaixo pelo endpoint
+          público criado na sua conta do Formspree.
+        -->
+        <form
+          id="contact-form"
+          method="POST"
+          action="https://formspree.io/f/maeodoqd"
+          novalidate
+        >
+          <div class="form-block">
+            <h2 class="form-block-title">Sobre você</h2>
+
+            <div class="field">
+              <label for="nome">
+                Nome completo <span class="field-required" aria-hidden="true">*</span>
+                <span class="sr-only">(obrigatório)</span>
+              </label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                autocomplete="name"
+                required
+                aria-describedby="nome-erro"
+                placeholder="Ex.: Luara Almeida Cipriano"
+              >
+              <p id="nome-erro" class="field-error" role="alert" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="telefone">
+                Telefone de contato com DDD <span class="field-required" aria-hidden="true">*</span>
+                <span class="sr-only">(obrigatório)</span>
+              </label>
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                autocomplete="tel"
+                inputmode="tel"
+                required
+                aria-describedby="telefone-erro"
+                placeholder="Ex.: (31) 9 9914-2158"
+              >
+              <p id="telefone-erro" class="field-error" role="alert" hidden></p>
+            </div>
+
+            <div class="field">
+              <label for="cidade">
+                Cidade e estado onde fica ou ficará o imóvel <span class="field-optional">(opcional)</span>
+              </label>
+              <input
+                type="text"
+                id="cidade"
+                name="cidade_estado"
+                placeholder="Ex.: São João del-Rei, MG"
+              >
+            </div>
+
+            <fieldset class="field radio-group">
+              <legend>Preferência de atendimento <span class="field-optional">(opcional)</span></legend>
+              <div class="radio-options">
+                <label class="radio-pill">
+                  <input type="radio" name="preferencia_atendimento" value="Online">
+                  <span>Online</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="preferencia_atendimento" value="Presencial">
+                  <span>Presencial</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="preferencia_atendimento" value="Quero orientação">
+                  <span>Quero orientação</span>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="form-block">
+            <h2 class="form-block-title">Sobre o que você está planejando</h2>
+
+            <fieldset class="field radio-group">
+              <legend>Imóvel <span class="field-optional">(opcional)</span></legend>
+              <div class="radio-options">
+                <label class="radio-pill">
+                  <input type="radio" name="tipo_imovel" value="Residencial">
+                  <span>Residencial</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="tipo_imovel" value="Comercial">
+                  <span>Comercial</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="tipo_imovel" value="Misto">
+                  <span>Misto</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="tipo_imovel" value="Outro">
+                  <span>Outro</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="servico">
+                Qual ajuda procura? <span class="field-optional">(opcional)</span>
+              </label>
+              <select id="servico" name="ajuda_procurada">
+                <option value="">Selecione se quiser</option>
+                <option value="Obra nova">Obra nova</option>
+                <option value="Reforma">Reforma</option>
+                <option value="Interiores">Interiores</option>
+                <option value="Consultoria">Consultoria</option>
+                <option value="Combinação de serviços">Combinação de serviços</option>
+                <option value="Outro">Outro</option>
+                <option value="Ainda não sei">Ainda não sei</option>
+              </select>
+            </div>
+
+            <fieldset id="financiamento-field" class="field radio-group" hidden>
+              <legend>Você pensa em financiar a obra? <span class="field-optional">(opcional)</span></legend>
+              <div class="radio-options">
+                <label class="radio-pill">
+                  <input type="radio" name="financiamento_obra" value="Sim">
+                  <span>Sim</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="financiamento_obra" value="Não">
+                  <span>Não</span>
+                </label>
+                <label class="radio-pill">
+                  <input type="radio" name="financiamento_obra" value="Ainda estou avaliando">
+                  <span>Ainda estou avaliando</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="ambientes">
+                Quais ambientes quer conversar sobre? <span class="field-optional">(opcional)</span>
+              </label>
+              <input
+                type="text"
+                id="ambientes"
+                name="ambientes"
+                placeholder="Ex.: cozinha e sala, fachada, loja inteira…"
+              >
+            </div>
+
+            <div class="field">
+              <label for="momento">
+                Em que momento está? <span class="field-optional">(opcional)</span>
+              </label>
+              <select id="momento" name="momento_projeto">
+                <option value="">Selecione se quiser</option>
+                <option value="Conhecendo possibilidades">Conhecendo possibilidades</option>
+                <option value="Escolhendo terreno ou imóvel">Escolhendo terreno ou imóvel</option>
+                <option value="Planejando antes da obra">Planejando antes da obra</option>
+                <option value="Com a obra em andamento">Com a obra em andamento</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="prazo">
+                Quando pensa em começar? <span class="field-optional">(opcional)</span>
+              </label>
+              <select id="prazo" name="quando_comecar">
+                <option value="">Selecione se quiser</option>
+                <option value="Assim que possível">Assim que possível</option>
+                <option value="Em até 6 meses">Em até 6 meses</option>
+                <option value="Entre 6 e 12 meses">Entre 6 e 12 meses</option>
+                <option value="Daqui a mais de um ano">Daqui a mais de um ano</option>
+                <option value="Sem data definida">Sem data definida</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="mensagem">
+                Como podemos te ajudar? <span class="field-optional">(opcional)</span>
+              </label>
+              <span class="field-hint">Se quiser, conte o tamanho aproximado, o que já imaginou e o que mais gostaria de resolver.</span>
+              <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            </div>
+          </div>
+
+          <p class="form-privacy-note">
+            Ao enviar este formulário, você compartilha essas informações com a Zaire Arquitetura por meio do serviço Formspree apenas para receber retorno sobre o seu projeto. O site não salva suas respostas em cookies nem no navegador. Leia os detalhes em <a href="privacidade.html">Privacidade</a>.
+          </p>
+
+          <div class="form-actions">
+            <button type="submit" id="submit-btn" class="btn btn-primary">Enviar meu pedido</button>
+          </div>
+
+          <div
+            id="form-status"
+            class="form-status"
+            role="status"
+            aria-live="polite"
+            tabindex="-1"
+            hidden
+          ></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand-name">Zaire Arquitetura</p>
+          <p class="footer-phrase">Sua primeira decisão dita o rumo da sua obra.</p>
+          <p class="footer-instagram" data-instagram-item hidden>
+            <a class="footer-instagram-link" href="#" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+              <span data-instagram-label>Instagram</span>
+            </a>
+          </p>
+        </div>
+
+        <div>
+          <h2 class="footer-heading">Navegação</h2>
+          <ul class="footer-links footer-links--two-col">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="index.html#servicos">Serviços</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>Atendimento online e presencial em São João del-Rei e região.</span>
+        <div class="footer-bottom-actions">
+          <a href="privacidade.html">Política de privacidade</a>
+          <a class="back-to-top" href="#topo">Voltar ao topo ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante verde do WhatsApp -->
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/5532998498788?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Zaire%20Arquitetura%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+    data-whatsapp-link="padrao"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Conversar no WhatsApp com a Zaire Arquitetura"
+    title="Conversar no WhatsApp"
+  >
+    <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+      <path d="M3 21l1.65-3.8A9 9 0 1 1 7.4 19.35L3 21z"/>
+      <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/>
+    </svg>
+  </a>
+
+  <script src="assets/js/dados.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/contato.js" defer></script>
+</body>
+</html>
