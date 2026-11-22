@@ -62,7 +62,7 @@
     filtrados.forEach(function (projeto) {
       var card = document.createElement("a");
       card.className = "project-card";
-      card.href = "projeto.html?id=" + encodeURIComponent(projeto.id);
+      card.href = "projeto?id=" + encodeURIComponent(projeto.id);
 
       var media = document.createElement("div");
       media.className = "project-card-media";
