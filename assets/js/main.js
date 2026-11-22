@@ -134,7 +134,7 @@
   if (marca.pattern) {
     document.querySelectorAll("[data-pattern-band]").forEach(function (el) {
       el.style.backgroundImage =
-        "linear-gradient(rgba(250, 248, 244, 0.84), rgba(250, 248, 244, 0.84)), url('" + marca.pattern + "')";
+        "linear-gradient(rgba(250, 248, 244, 0.92), rgba(250, 248, 244, 0.92)), url('" + marca.pattern + "')";
       el.classList.add("has-pattern");
     });
   }
