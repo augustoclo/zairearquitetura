@@ -11,7 +11,7 @@ window.ZAIRE_CONFIG = {
   nomeMarca: "Zaire Arquitetura",
   arquitetas: {
     primeira: "Gabriela",
-    segunda: "Lavynia"
+    segunda: "Lavinya"
   },
   cidadesPresenciais: "São Tiago e São João del-Rei, MG",
   whatsapp: {
@@ -35,7 +35,7 @@ window.ZAIRE_CONFIG = {
     fotoHero: "assets/img/marca/hero-placeholder.webp",
     fotoHeroAlt: "Ambiente arquitetônico com luz natural — Zaire Arquitetura",
     fotoEquipe: "assets/img/equipe/equipe-placeholder.webp",
-    fotoEquipeAlt: "Espaço reservado para foto das arquitetas Gabriela e Lavynia, da Zaire Arquitetura"
+    fotoEquipeAlt: "Espaço reservado para foto das arquitetas Gabriela e Lavinya, da Zaire Arquitetura"
   }
 };
 
@@ -43,7 +43,7 @@ window.ZAIRE_CONFIG = {
  * PROJETOS DO PORTFÓLIO
  * ---------------------------------------------------------------------------
  * Valores aceitos para filtros:
- * - uso: "Residencial" | "Comercial" | "Misto"
+ * - uso: "Residencial" | "Comercial" | "Outro"
  * - servicos (array com 1 ou mais): "Obra nova" | "Reforma" | "Interiores" | "Consultoria"
  * - destaque: true (até 3 projetos aparecem na página inicial) ou false
  * - demonstracao: true (sinaliza exemplos de teste; remova estes itens antes de publicar)
@@ -60,14 +60,14 @@ window.ZAIRE_PROJETOS = [
     demonstracao: false,
     destaque: true,
     uso: "Residencial",
-    servicos: ["Obra nova", "Interiores"],
+    servicos: ["Obra nova"],
     cidade: "São Tiago, MG",
     area: "195 m²",
     ano: "2025",
     resumo: "Exemplo demonstrativo de residência térrea pensada para integrar cozinha, varanda e quintal no dia a dia da família.",
     descricao: "Este é um projeto demonstrativo para testar a navegação do portfólio. Aqui entra um texto curto explicando o pedido do cliente — como o desejo de receber familiares com conforto e aproveitar a ventilação natural — e as principais decisões de implantação, materiais e mobiliário.",
     capa: {
-      src: "assets/img/projetos/casa-a-e-a-01.webp",
+      src: "assets/img/projetos/casa-a-e-a-02.webp",
       alt: "Espaço reservado demonstrativo: fachada e varanda da Casa Varanda",
       largura: 1200,
       altura: 900
@@ -170,7 +170,7 @@ window.ZAIRE_PROJETOS = [
     id: "emporio-ambira",
     nome: "Empório Ambira",
     demonstracao: false,
-    destaque: true,
+    destaque: false,
     uso: "Comercial",
     servicos: ["Interiores"],
     cidade: "São João del-Rei, MG",
@@ -317,7 +317,7 @@ window.ZAIRE_PROJETOS = [
     id: "reforma-e-ampliacao-residencial-f-filva",
     nome: "Reforma e ampliação residencial - Família Silva",
     demonstracao: false,
-    destaque: true,
+    destaque: false,
     uso: "Residencial",
     servicos: ["Reforma"],
     cidade: "São Tiago, MG",
@@ -425,7 +425,7 @@ window.ZAIRE_PROJETOS = [
     descricao: "O projeto Na Brasa transforma um galpão ao lado do campo de society em um bar vibrante e democrático onde o futebol pulsa dentro e fora das quatro linhas. Com estética industrial equilibrada por toques de cor para abraçar diferentes públicos e apresentar o padrão da marca, o espaço conecta mesas voltadas para o campo, grupos maiores, jogos, música ao vivo e telas de transmissão a uma cozinha ativa e fluxos de trabalho pensados para o ritmo e o conforto da equipe.",
     capa: {
       src: "assets/img/projetos/bar-e-petiscaria-na-brasa-01.webp",
-      alt: "Espaço reservado demonstrativo: fachada do Sobrado e Ateliê de uso misto",
+      alt: "Espaço reservado demonstrativo: fachada do Sobrado e Ateliê de uso comercial",
       largura: 1200,
       altura: 900
     },
@@ -690,7 +690,7 @@ window.ZAIRE_PROJETOS = [
     demonstracao: false,
     destaque: false,
     uso: "Comercial",
-    servicos: ["Interiores"],
+    servicos: ["Interiores", "Reforma"],
     cidade: "São Tiago, MG",
     area: "32,51m²",
     ano: "2024",
@@ -870,7 +870,7 @@ window.ZAIRE_PROJETOS = [
     id: "grafica-sao-tiago",
     nome: "Gráfica São Tiago",
     demonstracao: false,
-    destaque: true,
+    destaque: false,
     uso: "Comercial",
     servicos: ["Interiores"],
     cidade: "São Tiago, MG",
@@ -940,7 +940,7 @@ window.ZAIRE_PROJETOS = [
     id: "sitio-sagrada-familia",
     nome: "Sítio Sagrada Família",
     demonstracao: false,
-    destaque: true,
+    destaque: false,
     uso: "Residencial",
     servicos: ["Obra nova"],
     cidade: "São Tiago, MG",
@@ -1087,9 +1087,9 @@ window.ZAIRE_PROJETOS = [
     id: "sitio-sao-francisco-de-assis",
     nome: "Sítio São Francisco de Assis",
     demonstracao: false,
-    destaque: true,
+    destaque: false,
     uso: "Residencial",
-    servicos: ["Obra nova", "Interiores"],
+    servicos: ["Obra nova"],
     cidade: "São Tiago, MG",
     area: "290,95m²",
     ano: "2025",
@@ -1255,7 +1255,7 @@ window.ZAIRE_PROJETOS = [
     id: "casa-m-a",
     nome: "Casa M.A.",
     demonstracao: false,
-    destaque: true,
+    destaque: false,
     uso: "Residencial",
     servicos: ["Obra nova"],
     cidade: "São Tiago, MG",
@@ -1395,7 +1395,7 @@ window.ZAIRE_PROJETOS = [
     id: "apartamento-401",
     nome: "Apartamento 401",
     demonstracao: false,
-    destaque: true,
+    destaque: false,
     uso: "Residencial",
     servicos: ["Reforma", "Interiores"],
     cidade: "Belo Horizonte, MG",
@@ -1577,7 +1577,7 @@ window.ZAIRE_PROJETOS = [
     id: "familia-assis-e-mata",
     nome: "Família Assis e Mata",
     demonstracao: false,
-    destaque: false,
+    destaque: true,
     uso: "Residencial",
     servicos: ["Interiores"],
     cidade: "São Tiago, MG",
@@ -1808,9 +1808,9 @@ window.ZAIRE_PROJETOS = [
     id: "familia-lara",
     nome: "Família Lara",
     demonstracao: false,
-    destaque: false,
-    uso: "Comercial",
-    servicos: ["Obra nova"],
+    destaque: true,
+    uso: "Residencial",
+    servicos: ["Reforma", "Interiores"],
     cidade: "São Tiago, MG",
     area: "240 m²",
     ano: "",

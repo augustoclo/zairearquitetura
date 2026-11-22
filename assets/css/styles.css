@@ -462,7 +462,7 @@ p {
 }
 
 .hero-title {
-  color: #FFFFFF;
+  color: var(--linen);
   font-size: clamp(1.85rem, 5.2vw, 3rem);
   font-weight: 600;
   line-height: 1.22;
@@ -503,7 +503,7 @@ p {
 .has-pattern {
   background-repeat: repeat;
   background-position: center;
-  background-size: 360px auto; /* ajuste o tamanho do desenho conforme preferir */
+  background-size: 520px auto; /* ajuste o tamanho do desenho conforme preferir */
 }
 
 /* ==========================================================================

@@ -21,7 +21,7 @@ zaire-arquitetura/
     │   └── README-FONTES.txt     # Onde colocar os arquivos .woff2 e a licença OFL.txt
     ├── img/
     │   ├── marca/                # Logo, pattern e foto principal (hero)
-    │   ├── equipe/               # Foto de Gabriela e Lavynia juntas
+    │   ├── equipe/               # Foto de Gabriela e Lavinya juntas
     │   └── projetos/             # Fotografias dos projetos (contém SVGs demonstrativos)
     └── js/
         ├── dados.js              # Arquivo único de configuração e cadastro de projetos
@@ -60,7 +60,7 @@ Depois abra `http://localhost:8000` no navegador.
    - Enquanto `logoPrincipal` e `logoClara` ficarem vazios (`""`), o site exibe **“Zaire Arquitetura”** em texto, sem ícone de imagem quebrada.
 
 ### Foto das arquitetas (`assets/img/equipe/`)
-1. Salve a foto real de Gabriela e Lavynia juntas como `assets/img/equipe/gabriela-e-lavynia.webp` (sugestão: proporção `4:5`, por exemplo `900 × 1125 px`).
+1. Salve a foto real de Gabriela e Lavinya juntas como `assets/img/equipe/gabriela-e-Lavinya.webp` (sugestão: proporção `4:5`, por exemplo `900 × 1125 px`).
 2. Em `assets/js/dados.js`, atualize `fotoEquipe` e `fotoEquipeAlt`.
 
 ### Fontes (Poppins local em `assets/fonts/`)
@@ -94,7 +94,7 @@ Todos os projetos ficam no array `window.ZAIRE_PROJETOS` em **`assets/js/dados.j
   demonstracao: false,         // deixe false nos projetos reais
   destaque: true,              // true para aparecer na página inicial (até 3 projetos)
   etiqueta: "Recente",          // use etiquetas personalizadas por projeto
-  uso: "Residencial",          // "Residencial" | "Comercial" | "Misto"
+  uso: "Residencial",          // "Residencial" | "Comercial" | "Outro"
   servicos: ["Obra nova", "Interiores"], // 1 ou mais: "Obra nova", "Reforma", "Interiores", "Consultoria"
   cidade: "São Tiago, MG",     // opcional (deixe "" para ocultar)
   area: "180 m²",              // opcional (deixe "" para ocultar)
@@ -141,7 +141,7 @@ Todos os projetos ficam no array `window.ZAIRE_PROJETOS` em **`assets/js/dados.j
 
 ### Configurando o formulário com o Formspree
 1. Crie uma conta gratuita em [Formspree](https://formspree.io/) e clique em **+ New Form**.
-2. Defina o **e-mail de destino** onde Gabriela e Lavynia devem receber os pedidos (verifique o e-mail de confirmação enviado pelo Formspree).
+2. Defina o **e-mail de destino** onde Gabriela e Lavinya devem receber os pedidos (verifique o e-mail de confirmação enviado pelo Formspree).
 3. Na aba **Integration** do formulário criado, copie o endereço público do endpoint — conforme a documentação oficial [Building an HTML Form (Formspree)](https://help.formspree.io/articles/building-your-form/building-an-html-form) — no formato:
    `https://formspree.io/f/seu_id_real`
 4. Abra `contato.html` e substitua `https://formspree.io/f/SEU_ID_DO_FORMULARIO` no atributo `action` do `<form id="contact-form">`. Esse é o **único lugar** onde o endereço precisa ser colado; o arquivo `assets/js/contato.js` lê esse atributo automaticamente e envia via `fetch` com `Accept: application/json` ([Formspree AJAX Docs](https://help.formspree.io/pt-br/articles/building-your-form/submit-forms-with-javascript-ajax)).
@@ -195,8 +195,8 @@ Consulte sempre a documentação oficial do GitHub: [Managing a custom domain fo
 Esta versão não usa cookies, analytics, pixels ou ferramentas opcionais; por isso **não exibe banner de consentimento** nem interruptores sem função. Caso você adicione analytics, pixel de anúncios ou embeds no futuro, será necessário implementar um controle real de consentimento que bloqueie o carregamento dessas ferramentas antes da escolha do visitante e permita recusar ou alterar preferências a qualquer momento.
 
 ### Checklist final antes de divulgar `zairearquitetura.com.br`
-- [ ] Confirmar a grafia final dos nomes das arquitetas (**Gabriela** e **Lavynia**) e dados institucionais.
-- [ ] Substituir os arquivos de espaço reservado por logo oficial, foto principal (`hero-arquitetura.webp`) e foto real das arquitetas (`gabriela-e-lavynia.webp`).
+- [ ] Confirmar a grafia final dos nomes das arquitetas (**Gabriela** e **Lavinya**) e dados institucionais.
+- [ ] Substituir os arquivos de espaço reservado por logo oficial, foto principal (`hero-arquitetura.webp`) e foto real das arquitetas (`gabriela-e-Lavinya.webp`).
 - [ ] Adicionar os arquivos `.woff2` da fonte Poppins e a licença `OFL.txt` em `assets/fonts/`.
 - [ ] Remover todos os projetos demonstrativos (`demonstracao: true` e arquivos `demo-*.svg`) e cadastrar apenas projetos reais com **autorização de uso de imagem** dos clientes.
 - [ ] Configurar o endpoint real do **Formspree** em `contato.html` e realizar o teste de ponta a ponta.
