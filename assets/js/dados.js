@@ -68,101 +68,101 @@ window.ZAIRE_PROJETOS = [
     descricao: "Para o jovem casal, o projeto parte de um lote estreito, comprido e com testada de quase 10 metros, vencendo os desafios da implantação e da topografia para criar uma casa que funciona como um refúgio introspectivo, seguro e privativo atrás dos muros.  Com respiros laterais e jardins ao longo do terreno, a proposta entrega uma residência completa com área de lazer, piscina e escritório integrado, mantendo a acessibilidade no primeiro pavimento e a flexibilidade para acompanhar as diferentes fases da vida do casal ao longo do tempo.",
     capa: {
       src: "assets/img/projetos/casa-a-e-a-02.webp",
-      alt: "Espaço reservado demonstrativo: fachada e varanda da Casa Varanda",
+      alt: "Vista diurna do muro da fachada",
       largura: 1200,
       altura: 900
     },
     fotos: [
       {
         src: "assets/img/projetos/casa-a-e-a-01.webp",
-        alt: "Espaço reservado demonstrativo: fachada e varanda integrada ao jardim",
+        alt: "Vista diurna do muro da fachada",
         largura: 1200,
         altura: 900,
-        legenda: "Vista da varanda (imagem demonstrativa)."
+        legenda: "Muro frontal | Vista noturna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-02.webp",
-        alt: "Espaço reservado demonstrativo: sala de estar com abertura para área externa",
+        alt: "Vista diurna do muro da fachada",
         largura: 900,
         altura: 1125,
-        legenda: "Relação entre estar e área externa (imagem demonstrativa em proporção vertical)."
+        legenda: "Muro frontal com entorno real | Vista diurna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-03.webp",
-        alt: "Espaço reservado demonstrativo: cozinha iluminada com marcenaria clara",
+        alt: "Vista diurna do muro da fachada",
         largura: 1400,
         altura: 875,
-        legenda: "Cozinha e iluminação natural (imagem demonstrativa)."
+        legenda: "Muro frontal | Vista diurna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-04.webp",
-        alt: "Espaço reservado demonstrativo: fachada e varanda integrada ao jardim",
+        alt: "Vista diurna do muro da fachada",
         largura: 1200,
         altura: 900,
-        legenda: "Vista da varanda (imagem demonstrativa)."
+        legenda: "Acessos pelo muro frontal | Vista diurna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-05.webp",
-        alt: "Espaço reservado demonstrativo: sala de estar com abertura para área externa",
+        alt: "Vista diurna da garagem por dentro do muro",
         largura: 900,
         altura: 1125,
-        legenda: "Relação entre estar e área externa (imagem demonstrativa em proporção vertical)."
+        legenda: "Garagem | Vista diurna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-06.webp",
-        alt: "Espaço reservado demonstrativo: cozinha iluminada com marcenaria clara",
+        alt: "Vista norturna da garagem por dentro do muro",
         largura: 1400,
         altura: 875,
-        legenda: "Cozinha e iluminação natural (imagem demonstrativa)."
+        legenda: "Garagem | Vista noturna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-07.webp",
-        alt: "Espaço reservado demonstrativo: fachada e varanda integrada ao jardim",
+        alt: "Vista diurna da prota de entrada",
         largura: 1200,
         altura: 900,
-        legenda: "Vista da varanda (imagem demonstrativa)."
+        legenda: "Porta de acesso para sala de estar | Vista diurna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-08.webp",
-        alt: "Espaço reservado demonstrativo: sala de estar com abertura para área externa",
+        alt: "Vista noturna da prota de entrada",
         largura: 900,
         altura: 1125,
-        legenda: "Relação entre estar e área externa (imagem demonstrativa em proporção vertical)."
+        legenda: "Porta de acesso para sala de estar | Vista noturna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-09.webp",
-        alt: "Espaço reservado demonstrativo: cozinha iluminada com marcenaria clara",
+        alt: "Vista do corredor que acessa aos quartos",
         largura: 1400,
         altura: 875,
-        legenda: "Cozinha e iluminação natural (imagem demonstrativa)."
+        legenda: "Corredor de acesso aos quartos | Pavimento Térreo"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-10.webp",
-        alt: "Espaço reservado demonstrativo: fachada e varanda integrada ao jardim",
+        alt: "Vista diurna do corredor externo",
         largura: 1200,
         altura: 900,
-        legenda: "Vista da varanda (imagem demonstrativa)."
+        legenda: "Corredor externo de acesso à área de lazer | Vista diurna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-11.webp",
-        alt: "Espaço reservado demonstrativo: sala de estar com abertura para área externa",
+        alt: "Vista diurna do corredor externo",
         largura: 900,
         altura: 1125,
-        legenda: "Relação entre estar e área externa (imagem demonstrativa em proporção vertical)."
+        legenda: "Corredor externo de acesso à área de lazer | Vista noturna."
       },
       {
         src: "assets/img/projetos/casa-a-e-a-12.webp",
-        alt: "Espaço reservado demonstrativo: cozinha iluminada com marcenaria clara",
+        alt: "Vista diurna da área de lazer",
         largura: 1400,
         altura: 875,
-        legenda: "Cozinha e iluminação natural (imagem demonstrativa)."
+        legenda: "Área de lazer | Vista diurna"
       },
       {
         src: "assets/img/projetos/casa-a-e-a-13.webp",
-        alt: "Espaço reservado demonstrativo: cozinha iluminada com marcenaria clara",
+        alt: "Vista noturna da área de lazer",
         largura: 1400,
         altura: 875,
-        legenda: "Cozinha e iluminação natural (imagem demonstrativa)."
+        legenda: "Área de lazer | Vista noturna"
       }
     ]
   },
@@ -187,129 +187,122 @@ window.ZAIRE_PROJETOS = [
     fotos: [
       {
         src: "assets/img/projetos/emporio-ambira-01.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista do acesso ao Empória",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Acesso"
       },
       {
         src: "assets/img/projetos/emporio-ambira-02.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista para a estante de exposição",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Vista para a estante de exposição"
       },
       {
         src: "assets/img/projetos/emporio-ambira-03.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista dos fundos para o lavatório e parede de destaque",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
-      },
-      {
-        src: "assets/img/projetos/emporio-ambira-04.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
-        largura: 1200,
-        altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Lavatório e parede de destaque"
       },
       {
         src: "assets/img/projetos/emporio-ambira-05.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista para os freezers de self service",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Setor de self service"
       },
       {
         src: "assets/img/projetos/emporio-ambira-06.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista para o balcão",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Balcão"
       },
       {
         src: "assets/img/projetos/emporio-ambira-07.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista para área de interação do setor de self service",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Setor de self service"
       },
       {
         src: "assets/img/projetos/emporio-ambira-08.webp",
-        alt: "Espaço reservado demonstrativo: marcenaria sob medida para organização",
+        alt: "Vista por dentro do balcão",
         largura: 1200,
         altura: 900,
-        legenda: "Armazenamento planejado (imagem demonstrativa)."
+        legenda: "Vista pelo balcão"
       },
       {
         src: "assets/img/projetos/emporio-ambira-09.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Percpectiva da entrada",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Perspectiva do acesso principal"
       },
       {
         src: "assets/img/projetos/emporio-ambira-10.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista do baleiro do balcão",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Detalhes do baleiro | Balcão"
       },
       {
         src: "assets/img/projetos/emporio-ambira-11.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista para a parede de destaque e freezers",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Parede de destaque para exposição"
       },
       {
         src: "assets/img/projetos/emporio-ambira-12.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Percpectva do balcão",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Percpectva do balcão"
+      },
+       {
+        src: "assets/img/projetos/emporio-ambira-14.webp",
+        alt: "Percpectva aproximada do balcão",
+        largura: 1200,
+        altura: 900,
+        legenda: "Percpectva aproximada do balcão"
       },
       {
         src: "assets/img/projetos/emporio-ambira-13.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista da vitrine",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
-      },
-      {
-        src: "assets/img/projetos/emporio-ambira-14.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
-        largura: 1200,
-        altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Vitrine de exposição"
       },
       {
         src: "assets/img/projetos/emporio-ambira-15.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Vista para a estante de exposição",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Vista para a estante de exposição"
       },
       {
         src: "assets/img/projetos/emporio-ambira-fachada-01.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Fachada com todas as luzes acesas",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Fachada | Luzes gerais acesas"
       },
       {
         src: "assets/img/projetos/emporio-ambira-fachada-02.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Fachada com as luzes de destaque acesas",
         largura: 1200,
         altura: 900,
-        legenda: "Integração de ambientes (imagem demonstrativa)."
+        legenda: "Fachada | Luzes de desrtaque acesas"
       },
       {
         src: "assets/img/projetos/emporio-ambira-planta-baixa.webp",
-        alt: "Espaço reservado demonstrativo: integração entre sala de estar e jantar",
+        alt: "Planta baixa do espaço",
         largura: 1200,
         altura: 900,
-        legenda: "Planta baixa."
+        legenda: "Planta baixa"
       }
     ]
   },
@@ -327,87 +320,87 @@ window.ZAIRE_PROJETOS = [
     descricao: "Desde 1950, a casa carrega histórias e paredes de tijolos maciços que pediram um novo respiro para acolher os pais com mais conforto e acessibilidade. Respeitando as limitações estruturais e os cômodos compactos originais, a ampliação (que eleva a área construída de 107,70 m² para 179,20 m²) integra a área social, melhora o acesso com rampa e patamar e amplia o banheiro no térreo, enquanto o novo pavimento superior sobre a garagem e a área reconstruída cria um refúgio de lazer e convívio com maior privacidade.",
     capa: {
       src: "assets/img/projetos/residencial-f-filva-01.webp",
-      alt: "Espaço reservado demonstrativo: balcão de atendimento da Cafeteria da Praça",
+      alt: "Fachada reformada noturna",
       largura: 1200,
       altura: 900
     },
     fotos: [
       {
         src: "assets/img/projetos/residencial-f-filva-02.webp",
-        alt: "Espaço reservado demonstrativo: balcão e área de atendimento",
+        alt: "Fachada reformada diurno",
         largura: 1200,
         altura: 900,
-        legenda: "Balcão de atendimento (imagem demonstrativa)."
+        legenda: "Fachada principal | Vista diurna"
       },
       {
         src: "assets/img/projetos/residencial-f-filva-03.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
+        alt: "Fachada reformada noturna vista aproximada",
         largura: 900,
         altura: 1125,
-        legenda: "Salão principal (imagem demonstrativa)."
+        legenda: "Vista aproximada da fachada | Vista noturna"
       },
       {
         src: "assets/img/projetos/residencial-f-filva-04.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
+        alt: "Fachada reformada diurna vista aproximada",
         largura: 900,
         altura: 1125,
-        legenda: "Salão principal (imagem demonstrativa)."
-      },
-      {
-        src: "assets/img/projetos/residencial-f-filva-05.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
-        largura: 900,
-        altura: 1125,
-        legenda: "Salão principal (imagem demonstrativa)."
+        legenda: "Vista aproximada da fachada | Vista diurna"
       },
       {
         src: "assets/img/projetos/residencial-f-filva-06.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
+        alt: "Fachada reformada diurna vista aproximada",
         largura: 900,
         altura: 1125,
-        legenda: "Salão principal (imagem demonstrativa)."
-      },
-      {
-        src: "assets/img/projetos/residencial-f-filva-07.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
-        largura: 900,
-        altura: 1125,
-        legenda: "Salão principal (imagem demonstrativa)."
+        legenda: "Vista aproximada da fachada | Vista diurna"
       },
       {
         src: "assets/img/projetos/residencial-f-filva-08.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
+        alt: "Vista noturna da fachada reformada",
         largura: 900,
         altura: 1125,
-        legenda: "Salão principal (imagem demonstrativa)."
+        legenda: "Fachada principal | Vista noturna"
+      },
+      {
+        src: "assets/img/projetos/residencial-f-filva-07.webp",
+        alt: "Fachada reformada diurna vista aproximada inferior",
+        largura: 900,
+        altura: 1125,
+        legenda: "Vista inferior aproximada da fachada | Vista diurna"
       },
       {
         src: "assets/img/projetos/residencial-f-filva-09.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
+        alt: "Fachada reformada noturna vista aproximada inferior",
         largura: 900,
         altura: 1125,
-        legenda: "Salão principal (imagem demonstrativa)."
+        legenda: "Vista inferior aproximada da fachada | Vista noturna"
+      },
+      {
+        src: "assets/img/projetos/residencial-f-filva-05.webp",
+        alt: "Terraço descoberto com área de socialização",
+        largura: 900,
+        altura: 1125,
+        legenda: "Área de socialização no terraço"
       },
       {
         src: "assets/img/projetos/residencial-f-filva-10.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
+        alt: "Terraço descoberto com área de socialização",
         largura: 900,
         altura: 1125,
-        legenda: "Salão principal (imagem demonstrativa)."
+        legenda: "Área de socialização no terraço"
       },
       {
         src: "assets/img/projetos/residencial-f-filva-planta-baixa-01.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
+        alt: "Planta baixa pavimento térreo",
         largura: 900,
         altura: 1125,
-        legenda: "Planta baixa do residencial."
+        legenda: "Planta baixa | Pavimento térreo"
       },
       {
         src: "assets/img/projetos/residencial-f-filva-planta-baixa-02.webp",
-        alt: "Espaço reservado demonstrativo: salão com mesas e iluminação quente",
+        alt: "Planta baixa primeiro pavimento",
         largura: 900,
         altura: 1125,
-        legenda: "Planta baixa do residencial."
+        legenda: "Planta baixa | Primeiro pavimento"
       }
     ]
   },
