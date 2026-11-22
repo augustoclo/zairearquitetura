@@ -1167,6 +1167,77 @@ p {
 }
 
 /* ==========================================================================
+   Perguntas frequentes (FAQ em sanfona)
+   ========================================================================== */
+   .faq-wrap {
+    max-width: 820px;
+  }
+  
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .faq-item {
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    transition: border-color 0.18s ease;
+  }
+  
+  .faq-item[open] {
+    border-color: var(--cinnamon);
+  }
+  
+  .faq-item summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 54px;
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--shadow-grey);
+    cursor: pointer;
+  }
+  
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  .faq-item summary::after {
+    content: "+";
+    flex-shrink: 0;
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--cinnamon-dark);
+  }
+  
+  .faq-item[open] summary::after {
+    content: "−";
+  }
+  
+  .faq-item summary:hover {
+    color: var(--espresso);
+  }
+  
+  .faq-answer {
+    padding: 0 1.25rem 1.25rem;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+    color: var(--text);
+    font-size: 0.96rem;
+  }
+  
+  .faq-answer p:last-child {
+    margin-bottom: 0;
+  }
+
+/* ==========================================================================
    Rodapé e Botão Flutuante do WhatsApp
    ========================================================================== */
    .site-footer {
