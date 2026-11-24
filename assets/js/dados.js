@@ -418,94 +418,87 @@ window.ZAIRE_PROJETOS = [
     descricao: "O projeto Na Brasa transforma um galpão ao lado do campo de society em um bar vibrante e democrático onde o futebol pulsa dentro e fora das quatro linhas. Com estética industrial equilibrada por toques de cor para abraçar diferentes públicos e apresentar o padrão da marca, o espaço conecta mesas voltadas para o campo, grupos maiores, jogos, música ao vivo e telas de transmissão a uma cozinha ativa e fluxos de trabalho pensados para o ritmo e o conforto da equipe.",
     capa: {
       src: "assets/img/projetos/bar-e-petiscaria-na-brasa-01.webp",
-      alt: "Espaço reservado demonstrativo: fachada do Sobrado e Ateliê de uso comercial",
+      alt: "Área social do bar",
       largura: 1200,
       altura: 900
     },
     fotos: [
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-01.webp",
-        alt: "Espaço reservado demonstrativo: fachada com acesso comercial no térreo",
+        alt: "Área social do bar - Vista para os quadros",
         largura: 1200,
         altura: 900,
-        legenda: "Fachada de uso misto (imagem demonstrativa)."
+        legenda: "Área social do bar | Vista para o balcão"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-02.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Área social do bar | Vista para o balcão",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "Área social do bar | Vista geral"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-03.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Vista aproximada do balcão",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "Recepção do balcão | Área de check-out"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-04.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Área social do bar | Vista para o telão",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
-      },
-      {
-        src: "assets/img/projetos/bar-e-petiscaria-na-brasa-05.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
-        largura: 1200,
-        altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "Área social do bar | Vista para o telão"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-06.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Vista para o acesso aos sanitários",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "Acessos aos sanitários"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-07.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Vista para o telão do balcão",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
-      },
-      {
-        src: "assets/img/projetos/bar-e-petiscaria-na-brasa-08.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
-        largura: 1200,
-        altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "Balcão | Vista para o telão"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-09.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Vista para o acesso aos sanitários",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "Acesso aos sanitários"
+      },
+      {
+        src: "assets/img/projetos/bar-e-petiscaria-na-brasa-08.webp",
+        alt: "Vista da área de check-out para o bar",
+        largura: 1200,
+        altura: 900,
+        legenda: "Vista por dentro do balcão | Área de check-out"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-10.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Vista interna do balcão de atendimento",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "Vista interna do balcão de atendimento"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-11.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Área social do bar | Vista geral",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "Área social do bar | Vista geral"
       },
       {
         src: "assets/img/projetos/bar-e-petiscaria-na-brasa-12.webp",
-        alt: "Espaço reservado demonstrativo: circulação independente entre ateliê e moradia",
+        alt: "Vista de topo da área social do bar",
         largura: 1200,
         altura: 900,
-        legenda: "Acessos independentes (imagem demonstrativa)."
+        legenda: "VIsta de topo | Área social do bar"
       },
     ]
   },
